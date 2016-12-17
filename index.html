@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html> 
+<body> 
+<link rel="stylesheet" href="style.css">
+
+<div id = "formDiv">
+    <form id="inputForm">
+        <div class="row">
+             <label class ="formField" id="firstN"> First Name</label>
+             <input type="text" class ="formField" name= "first" onclick="onNameEnter();" />
+        </div>
+        <br />
+        <div class="row">
+            <label class="formField" id="lastN">Last Name:</label>
+            <input class="formField" type="text" name="last" onclick="onLastNameEnter();" />
+        </div>
+        <br />
+        <div id="checks">
+            <label> FirstCheckbox</label>
+            <input type="checkbox" />
+            
+            <br />
+            <label>secondCheckbox</label>
+            <input type="checkbox" />
+        </div>
+        <input type="submit" name="submitButton" onclick="submitClicked();" />
+        <div id="radios">
+            <label>radio one</label>
+            <input type="radio" name="radioButton" />
+            <label>radio 2</label>
+            <input type="radio" name="radioButton" />
+        </div>
+            </form> 
+    <input type="button" onclick="enableTimer()" value="Wiggle around" />
+    
+    
+</div>
+    <input type="button" id="stop" onclick="disableTimer()" value="Stop wiggling" />
+
+    <div id="invisibleDiv"></div>
+    <script src="simpleScript.js"></script>
+</body>
+</html>

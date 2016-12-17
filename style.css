@@ -1,0 +1,61 @@
+        #imgForeverAlone{
+    width: 200px;
+    height:200px;
+    border-style: dashed;
+    z-index: 3;
+}
+#firstN{
+    background-color:blue;
+    font-weight: bold;
+    color: white;
+    z-index: 3;
+}
+#lastN{
+    background-color: red;
+    font-style:italic;
+    color:green;
+    z-index: 3;
+}
+form{
+    display: table;
+    z-index: 3;
+}
+.formField{
+    display:table-cell;
+    z-index: 3;
+}
+.row{
+    display:table-row;
+    z-index: 3;
+}
+input,form{
+    z-index:3;
+}
+#formDiv{
+    border: solid 5px;
+    display: inline-block;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    z-index: 3;
+
+}
+#stop{
+    position: fixed;
+    top:0px;
+    right:0px;
+    z-index: 3;
+}
+#invisibleDiv{
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    position: relative;
+    display: block;
+    border-radius: 25px;
+}
+#checks{
+    width: 100%;
+    margin: 0px;
+    display: normal;
+}
